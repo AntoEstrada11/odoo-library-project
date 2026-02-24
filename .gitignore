@@ -1,0 +1,15 @@
+# Odoo data and DB
+data/
+db_data/
+core/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS
+.DS_Store
+.idea/
+.vscode/
