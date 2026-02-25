@@ -1,8 +1,11 @@
 {
     'name': 'Biblioteca: Préstamos',
-    'version': '1.0',
-    'category': 'Services',
-    'depends': ['library_books'], # IMPORTANTE: Dependes de tu compañero
-    'data': ['views/loan_views.xml'],
+    'version': '19.0.1.0.0',
+    'depends': ['library_books', 'base'],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/loan_views.xml'
+    ],
     'installable': True,
+    'application': True,
 }
